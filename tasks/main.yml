@@ -1,0 +1,8 @@
+- name: Install gateway
+  include_role: 
+    name: ansible-role-epics-base
+    tasks_from: extension_common
+  with_items:
+    - "{{ gateway_extension }}"
+  loop_control:
+    loop_var: extension

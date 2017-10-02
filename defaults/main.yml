@@ -1,0 +1,4 @@
+gateway_extension:
+  url: "https://github.com/epics-extensions/ca-gateway/archive/R2-0-6-0.tar.gz"
+  unarchived_name: "ca-gateway-R2-0-6-0"
+  release: true
